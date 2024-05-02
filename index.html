@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Climbing Gym</title>
+  <style>
+    body { background-color: #f0c27b; /* A warm color background */ }
+    header { background-color: #4b134f; color: white; padding: 20px; text-align: center; }
+    header a { color: white; margin: 0 15px; text-decoration: none; }
+    .content { padding: 20px; text-align: center; }
+    img { max-width: 100%; height: auto; }
+    footer { background-color: #333; color: white; padding: 10px; text-align: center; }
+    .form-section { background-color: #fff; padding: 20px; margin-top: 20px; }
+    .form-section h2 { color: #333; }
+    label, input, textarea { display: block; width: 95%; margin: 10px auto; }
+  </style>
+</head>
+<body>
 
+<header>
+  <h1>Rock Climbing Gym</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<div class="content">
+  <img src="climbing-gym.jpg" alt="Climbing Gym">
+  <p>Welcome to our state-of-the-art climbing gym! We offer a variety of climbing walls for all skill levels.</p>
+
+  <div class="form-section">
+    <h2>Sign up for more information!</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+<footer>
+  &copy; 2023 Rock Climbing Gym
+</footer>
+
+</body>
+</html>
