@@ -1,1 +1,109 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Climbing Gym</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0e68c; /* Light yellow */
+        }
+        header {
+            background-color: #8b4513; /* Saddle brown */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .service {
+            margin-bottom: 20px;
+        }
+        .service img {
+            width: 100%;
+            max-width: 300px;
+        }
+        footer {
+            background-color: #8b4513; /* Saddle brown */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form h2 {
+            margin-bottom: 10px;
+        }
+        form input[type="text"], form input[type="email"], form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        form input[type="submit"] {
+            background-color: #8b4513; /* Saddle brown */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rock Climbing Gym</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="service">
+            <img src="climbing_wall.jpg" alt="Climbing Wall">
+            <h2>Climbing Wall</h2>
+            <p>Experience the thrill of climbing on our state-of-the-art wall. Perfect for beginners and advanced climbers alike.</p>
+        </div>
+        <div class="service">
+            <img src="climbing_shoes.jpg" alt="Climbing Shoes">
+            <h2>Climbing Shoes</h2>
+            <p>Get the right gear with our selection of climbing shoes designed for durability and comfort.</p>
+        </div>
+        <div class="service">
+            <img src="climbing_gear.jpg" alt="Climbing Gear">
+            <h2>Climbing Gear</h2>
+            <p>From harnesses to helmets, we have everything you need to ensure your safety and comfort.</p>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 Rock Climbing Gym. All rights reserved.
+    </footer>
+    <form>
+        <h2>Contact Us</h2>
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
