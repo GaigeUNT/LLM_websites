@@ -100,9 +100,12 @@
     </footer>
     <form>
         <h2>Contact Us</h2>
-        <input type="text" name="name" placeholder="Your Name">
-        <input type="email" name="email" placeholder="Your Email">
-        <textarea name="message" placeholder="Your Message"></textarea>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" title="Enter your full name">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" title="Enter your email address">
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message"></textarea>
         <input type="submit" value="Submit">
     </form>
 </body>
