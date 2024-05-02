@@ -1,1 +1,74 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Climbing Gym</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rock Climbing Gym</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <button>Contact</button>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Welcome to Our Rock Climbing Gym!</h2>
+        <img src="climbing-gym.jpg" alt="Climbing Gym">
+        <p>Explore our range of climbing services including bouldering, top rope, and lead climbing. Our experienced instructors are here to help you reach new heights!</p>
+        <h3>Our Services:</h3>
+        <ul>
+            <li>Bouldering</li>
+            <li>Top Rope Climbing</li>
+            <li>Lead Climbing</li>
+        </ul>
+        <form>
+            <h3>Contact Us:</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2021 Rock Climbing Gym
+    </footer>
+    <script>
+        // JavaScript code can go here
+    </script>
+</body>
+</html>
