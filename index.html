@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Climber's Paradise</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>The Climber's Paradise</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="buttons">
+                <a href="#">Pricing</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </header>
 
+    <main>
+        <section id="home">
+            <div class="container">
+                <img src="images/climber.jpg" alt="Climber reaching for a hold">
+                <h2>Reach New Heights at The Climber's Paradise</h2>
+                <p>The Climber's Paradise is your one-stop shop for all things rock climbing! Whether you're a seasoned climber or just starting out, we have something for everyone. Our state-of-the-art facility boasts a variety of climbing walls, from beginner-friendly routes to challenging overhangs. We also offer a wide range of classes and programs to help you improve your skills and reach your climbing goals.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-boxes">
+                    <div class="service">
+                        <h3>Bouldering</h3>
+                        <p>Bouldering is a great way to build strength, power, and problem-solving skills. Our bouldering area features a variety of routes for all skill levels.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Top Roping</h3>
+                        <p>Top roping is a fantastic option for those who want to experience the thrill of climbing at heights. We offer top rope climbing walls with auto-belay systems for added safety.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Lead Climbing</h3>
+                        <p>For experienced climbers, lead climbing offers the ultimate challenge. Learn how to place your own protection as you ascend the wall.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Kids' Climbing Programs</h3>
+                        <p>Introduce your kids to the world of climbing in a safe and fun environment. Our kids' programs are designed to develop their skills and confidence.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Yoga & Fitness Classes</h3>
+                        <p>Complement your climbing training with our yoga and fitness classes. Improve your flexibility, strength, and overall well-being.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Have any questions or want to schedule your first visit? Fill out the form below and we'll be happy to help!</p>
+                <form onsubmit="return validateForm()">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Copyright 2024 The Climber's Paradise</p>
+        </div>
+    </footer>
+</body>
