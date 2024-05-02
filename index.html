@@ -1,1 +1,79 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rock Climbing Gym</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    main {
+        padding: 20px;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    form {
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Rock Climbing Gym</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <button>Click</button>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to Our Rock Climbing Gym</h2>
+        <p>Experience the thrill of rock climbing in our state-of-the-art facility. We offer a variety of services to suit climbers of all levels.</p>
+        <div>
+            <img src="climbing-gym.jpg" alt="Climbing Gym">
+            <p>Our services include:</p>
+            <ul>
+                <li>Indoor climbing walls</li>
+                <li>Outdoor climbing excursions</li>
+                <li>Climbing gear rental</li>
+                <li>Professional instructors</li>
+            </ul>
+        </div>
+        <form>
+            <h3>Contact Us</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2021 Rock Climbing Gym. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
