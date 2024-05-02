@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Climbing Gym</title>
+    <style>
+        /* CSS code for styling the webpage */
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        form {
+            margin-top: 20px;
+        }
+        
+        form label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#buttons">Buttons</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to our Rock Climbing Gym!</h1>
+        <p>Experience the thrill of rock climbing at our state-of-the-art facility. Our professional staff and top-notch equipment ensure a safe and exciting climbing experience for climbers of all levels.</p>
+        <img src="climbing-gym.jpg" alt="Climbing Gym" width="500">
+    </section>
+    
+    <section id="product">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of services to cater to climbers' needs:</p>
+        <ul>
+            <li>Indoor climbing walls for all skill levels</li>
+            <li>Instructional classes and workshops</li>
+            <li>Equipment rental and sales</li>
+            <li>Climbing competitions and events</li>
+        </ul>
+    </section>
+    
+    <section id="buttons">
+        <h2>Call to Action</h2>
+        <p>Ready to take your climbing skills to the next level?</p>
+        <button>Contact Us</button>
+        <button>Book Now</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Rock Climbing Gym. All rights reserved.</p>
+    </footer>
+    
+    <section>
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
+    <script>
+        // JavaScript code for any additional functionality
+        // You can add JavaScript code here to handle form submission, validate input, etc.
+    </script>
+</body>
+</html>
